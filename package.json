@@ -10,6 +10,7 @@
   "categories": [
     "Programming Languages"
   ],
+  "publisher": "garlicbreadcleric",
   "repository": {
     "type": "git",
     "url": "https://github.com/garlicbreadcleric/vscode-pandoc-markdown"
