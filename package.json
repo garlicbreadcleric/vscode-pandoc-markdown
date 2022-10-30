@@ -14,6 +14,7 @@
     "type": "git",
     "url": "https://github.com/garlicbreadcleric/vscode-pandoc-markdown"
   },
+  "license": "MIT",
   "contributes": {
     "languages": [{
       "id": "markdown",
