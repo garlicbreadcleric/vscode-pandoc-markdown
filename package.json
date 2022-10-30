@@ -1,0 +1,36 @@
+{
+  "name": "pandoc-markdown-syntax",
+  "displayName": "Pandoc Markdown Syntax",
+  "description": "Markdown syntax extended with Pandoc features (citations, fenced divs/spans, etc)",
+  "version": "0.0.1",
+  "icon": "icon.png",
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/garlicbreadcleric/vscode-pandoc-markdown"
+  },
+  "contributes": {
+    "languages": [{
+      "id": "markdown",
+      "aliases": ["Pandoc Markdown", "pandoc-markdown"],
+      "extensions": [".md"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "markdown",
+      "scopeName": "text.html.markdown",
+      "path": "./syntaxes/markdown.tmLanguage.json"
+    }],
+    "configurationDefaults": {
+      "[markdown]": {
+        "editor.unicodeHighlight.ambiguousCharacters": false,
+        "editor.wordWrap": "on"
+      }
+    }
+  }
+}
