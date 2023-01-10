@@ -23,4 +23,4 @@ Standard VSCode Markdown syntax with some modifications to support Pandoc Markdo
 ## See also
 
 - [Document Preview](https://github.com/garlicbreadcleric/vscode-document-preview) VSCode extension for previewing Markdown via Pandoc
-- Markane ([language server](https://github.com/garlicbreadcleric/markane) and [VSCode extension](https://github.com/garlicbreadcleric/vscode-markane)) for link completion, document templates, querying documents and more
+- Markane ([language server](https://github.com/garlicbreadcleric/markane) and [VSCode extension](https://github.com/garlicbreadcleric/vscode-markane)) for templates, snippets, completion, citations and more
