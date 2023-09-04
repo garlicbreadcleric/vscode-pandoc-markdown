@@ -6,15 +6,15 @@
 
 Standard VSCode Markdown syntax with some modifications to support Pandoc Markdown extensions:
 
-- Citations: `@citationKey`, `@{citationKey}`, `[see @citationKey1 p. 42; citationKey2 p. 24]`
-- Fenced divs:
+- [Citations](https://pandoc.org/MANUAL.html#extension-citations): `@citationKey`, `@{citationKey}`, `[see @citationKey1 p. 42; citationKey2 p. 24]`
+- [Fenced divs](https://pandoc.org/MANUAL.html#extension-fenced_divs):
 
   ```markdown
   ::: {.float-right}
   ![figure 1](./figure1.png)
   :::
   ```
-- Fenced spans: `[foo]{.mark}`
+- [Bracketed spans](https://pandoc.org/MANUAL.html#extension-bracketed_spans): `[foo]{.mark}`
 
 ## Caveats
 
